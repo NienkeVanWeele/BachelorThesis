@@ -8,19 +8,19 @@ Due to privacy concerns and data breaches, the data is not included in this repo
 !pip install typing-extensions
 !pip install openai==1.38.0
 
-import os
-import pandas as pd
-import ast
-import re
-import openai
-import pprint
-import random
-import pyspark.sql.functions as F
-import numpy as np
-from openai import OpenAI
+import os <br />
+import pandas as pd <br />
+import ast <br />
+import re <br />
+import openai <br />
+import pprint <br />
+import random <br />
+import pyspark.sql.functions as F <br />
+import numpy as np <br />
+from openai import OpenAI <br />
 
-from tenacity import (
-    retry,
-    stop_after_attempt,
-    wait_random_exponential,
+from tenacity import ( <br />
+    retry, <br />
+    stop_after_attempt, <br />
+    wait_random_exponential, <br />
 )
