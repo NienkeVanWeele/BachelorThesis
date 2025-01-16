@@ -24,3 +24,7 @@ from tenacity import ( <br />
     stop_after_attempt, <br />
     wait_random_exponential, <br />
 )
+
+## Author
+Nienke van Weele <br />
+s1067463
